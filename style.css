@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.app-title{
+    color: aliceblue;
+}
+
+.app-para{
+    color: aliceblue;
+}
+
+.app-para{
+    color: aliceblue;
+}
+
+.container{
+position: absolute;
+width: 90%;
+max-width: 31.25em;
+transform: translate(-50%, -50%);
+top: 50%; 
+ left: 50%;
+padding: 3em 2em;
+border-radius: 0.5rem;
+}
+
+#wrapper{
+    display: flex;
+}
+
+#info{
+    margin-right: 5px;
+}
+
+.input-wrapper {
+    /* display: grid;  */
+     grid-template-columns: 9fr 6fr;
+    gap: 1em;
+    margin: 5.rem ;
+    text-align: center;
+    
+    
+}
+
+#subit{
+    color: gray;
+    background-color: gray;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#info{
+    background-color: white;
+    color: black;
+    /* padding: 1em 1em; */
+    text-align: center;
+    width: 50%;
+    /* border-radius: 0.9em; */
+}
+
+#country{
+    background-color: white;
+    color: #D0021B;
+   font-family: "Poppins", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 6%;
+    /* color: #D0021B;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.75rem; */
+}
+
+#country-id{
+    background-color: white;
+    color: #FF6100;
+   font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 3%;
+    /* color: #FF6100;
+    font-weight: 700; */
+}
+
+#prob{
+    background-color: white;
+    color:  #440000;;
+    margin: 3%;
+}
+
+#result-name{
+    margin: 2% ;
+    color: brown;
+    font-family:sans-serif;
+}
